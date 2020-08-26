@@ -1,1 +1,33 @@
 /*Personal Web Page Style Sheet */
+main (margin-left: 100px)
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3 {background-color: aliceblue}
+h2 {color: aqua; font-family: monospace;background-color: darkgray;}
+ul {font-weight: 300;font-family: fantasy; background-color: crimson}
+h1 {background-color: darkblue}
+main {background-color: darkgray}
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+    
+    background-color: aliceblue
